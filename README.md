@@ -34,9 +34,10 @@
  ### 使用
  
  ```cs
- //控制器
- private readonly ILogger<HomeController> _logger;
 
+ private readonly ILogger<HomeController> _logger;
+       
+       //控制器
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
