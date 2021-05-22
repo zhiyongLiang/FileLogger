@@ -35,9 +35,14 @@
  
  ```cs
 
+//引用
+using FileLogger.Extensions;
+
+   //控制器内使用
+   
  private readonly ILogger<HomeController> _logger;
        
-       //控制器
+    
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
