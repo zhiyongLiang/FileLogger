@@ -38,8 +38,7 @@
 //引用
 using FileLogger.Extensions;
 
-   //控制器内使用
-   
+//控制器内使用   
  private readonly ILogger<HomeController> _logger;
        
     
